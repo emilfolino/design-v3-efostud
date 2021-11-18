@@ -6,10 +6,14 @@
     <div class="main technology-container" role="main">
         {{ content }}
 
+
+
         {% for page in pages("technology") %}
             <a href="{{ page.url }}">
             <div class="technology">
+                <img src="{{ page["meta"]["Image"] }}">
                 {{ page.title }}
+
             </div>
             </a>
         {% endfor %}

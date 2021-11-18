@@ -1,6 +1,7 @@
 ---
 Title: CSS
 Description: CSS.
+Image: hejsanhoppsan
 Template: technology
 ---
 
