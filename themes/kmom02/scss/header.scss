@@ -7,6 +7,17 @@
 .title,
 .logo {
     padding: 3em 3em 3em 0;
+    color: $font-color;
+}
+
+.title>a,
+.title>a:visited {
+    color: $font-color;
+    text-decoration: none;
+}
+
+title>a:hover {
+    text-decoration: underline;
 }
 
 .logo>a>img {
@@ -26,7 +37,7 @@
     .title {
         min-width: 50%;
     }
-    
+
     .logo {
         display: none !important;
     }
