@@ -1,11 +1,11 @@
 /* Normalize */
 @import '../../node_modules/normalize.css/normalize';
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu+Mono&display=swap');
+
 /* Variables */
 @import 'variables-dark';
-
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 /* External modules */
 @import '../../shared/fontawesome/scss/fontawesome';

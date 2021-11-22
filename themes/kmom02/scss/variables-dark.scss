@@ -1,13 +1,16 @@
-$font-color: #fcfcfc;
+$font-color: #00ff00;
 $font-alternative-color: #333;
 $accent-color: #ee6c4d;
 $background-color: #333;
 $background-alternative-color: #e0fbfc;
 $footer-background-color: #444;
-$footer-text-color: #fff;
+$footer-text-color: $font-color;
 $border-color: #ccc;
-$linkColor: #7fdbff;
+$linkColor: 'Ubuntu Mono', monospace;;
 
 $main-font-size: 1em;
 $main-line-height: 1.4;
 $magic-number: $main-font-size * $main-line-height;
+
+$font-body: 'Ubuntu Mono', monospace;
+$font-headings: 'Roboto Mono', monospace;
